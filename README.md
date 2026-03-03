@@ -58,7 +58,7 @@ MySQL
 
 Project Structure
 
-
+```
 financeflow/
 │
 ├── index.php                  # Dashboard (main page)
@@ -87,8 +87,7 @@ financeflow/
     └── js/
         └── main.js          
 
-
-
+```
 ->>Future Enhancements
 
 Mobile app for on-the-go tracking
