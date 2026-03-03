@@ -40,3 +40,13 @@ Database:
 
 MySQL 
 
+->>Future Enhancements
+
+Prepared statements 
+Excel and PDF report export
+Email verification and password reset
+Recurring transactions
+Multi-currency support
+Mobile application
+AI-based spending insights
+
