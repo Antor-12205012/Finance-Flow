@@ -49,7 +49,6 @@ Backend:
 PHP
 Session-based authentication
 
-bcrypt password hashing
 
 
 Database:
