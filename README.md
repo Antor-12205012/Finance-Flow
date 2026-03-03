@@ -56,19 +56,50 @@ Database:
 
 MySQL 
 
+Project Structure
+
+
+financeflow/
+│
+├── index.php                  # Dashboard (main page)
+├── login.php                  # User login
+├── register.php               # User registration
+├── database.sql               # Full database schema + sample data
+├── README.md
+│
+├── includes/
+│   ├── config.php             # DB connection, session, helper functions
+│   ├── header.php             # Sidebar navigation + topbar
+│   └── footer.php             # Scripts + closing tags
+│
+├── pages/
+│   ├── transactions.php       # Income & expense CRUD with filters
+│   ├── budget.php             # Monthly budget management
+│   ├── savings.php            # Savings goals tracker
+│   ├── cost_cutting.php       # Spending reduction goals
+│   ├── streaks.php            # Streaks & achievement badges
+│   ├── reports.php            # Monthly reports with charts
+│   └── logout.php             # Session destroy + redirect
+│
+└── assets/
+    ├── css/
+    │   └── style.css        
+    └── js/
+        └── main.js          
+
+
+
 ->>Future Enhancements
 
-Prepared statements 
+Mobile app for on-the-go tracking
 
-Excel and PDF report export
+Enhanced data visualization: interactive charts and dashboards
 
-Email verification and password reset
+Export reports (PDF/Excel) & scheduled email summaries
 
-Recurring transactions
+Budget alerts and notifications
 
-Multi-currency support
+AI-driven insights: spending suggestions.
 
-Mobile application
 
-AI-based spending insights
 
